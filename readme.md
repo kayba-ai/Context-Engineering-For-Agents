@@ -112,6 +112,8 @@ Systems where context evolves through execution:
 
 This addresses the maintenance problem of static context - the system learns instead of requiring manual updates.
 
+The Stanford ACE framework formalizes this as a feedback loop between execution and curation. Open-source implementations like [agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine) have shown promising results: 30% → 100% success rate on browser automation with 82% fewer steps.
+
 ## Key Principles
 
 ### 1. Smallest Possible High-Signal Tokens
@@ -144,30 +146,6 @@ Find the level of abstraction that guides without constraining.
 ### 4. Tool Design
 
 Fewer, well-scoped tools beat many overlapping ones. If a human can't pick the right tool from your set, the model won't either.
-
----
-
-## ACE: One Implementation
-
-ACE (Agentic Context Engineering) is an open-source implementation of dynamic context learning based on [Stanford research](https://arxiv.org/abs/2510.04618).
-
-```
-Execute task → Reflect on outcome → Curate strategies → Inject on next run
-```
-
-It focuses on **procedural memory** - learning _how to do things_ rather than storing facts.
-
-**Results on browser automation:**
-
-- 30% → 100% success rate
-- 82% fewer steps
-- 65% token cost reduction
-
-```bash
-pip install agentic-context-engine
-```
-
-GitHub: [kayba-ai/agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine)
 
 ---
 
