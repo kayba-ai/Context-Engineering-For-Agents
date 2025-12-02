@@ -112,7 +112,7 @@ Systems where context evolves through execution:
 
 This addresses the maintenance problem of static context - the system learns instead of requiring manual updates.
 
-The Stanford ACE framework formalizes this as a feedback loop between execution and curation. Open-source implementations like [agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine) have shown promising results: 30% → 100% success rate on browser automation with 82% fewer steps.
+The Stanford ACE framework formalizes this as a feedback loop between execution and curation. Our open-source implementation of the framework ([agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine)) has shown promising results: 30% → 100% success rate on browser automation with 82% fewer steps.
 
 ## Key Principles
 
