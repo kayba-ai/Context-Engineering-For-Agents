@@ -151,6 +151,6 @@ Fewer, well-scoped tools beat many overlapping ones. If a human can't pick the r
 
 ## Resources
 
-- [Anthropic: Effective Context Engineering](https://www.anthropic.com/engineering/context-engineering)
+- [Anthropic: Effective Context Engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 - [Stanford ACE Paper](https://arxiv.org/abs/2510.04618)
 - [ChromaDB Context Length Research](https://research.trychroma.com/context-length)
